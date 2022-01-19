@@ -8,7 +8,7 @@ import os
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
-class AliexpressScrape():
+class AliexpressScraper():
 
     def __init__(self, config_dir) -> None:
 
@@ -131,5 +131,5 @@ class AliexpressScrape():
 
 if __name__=="__main__":
 
-    aliexpress = AliexpressScrape(os.path.join(dir_path, 'config.json'))
+    aliexpress = AliexpressScraper(os.path.join(dir_path, 'config.json'))
     aliexpress.scrape_data()
