@@ -1,0 +1,9 @@
+name: aliexpress
+channels:
+  - defaults
+  - conda-forge
+  - anaconda
+dependencies:
+  - selenium
+  - pandas
+  
